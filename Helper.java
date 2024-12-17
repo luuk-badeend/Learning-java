@@ -31,4 +31,8 @@ public class Helper {
     public static void test() {
         System.out.println(" !TEST! ");
     }
+
+    public static void error(String message) {
+        System.out.println("[ERROR: " + message + "]");
+    }
 }
