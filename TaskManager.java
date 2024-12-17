@@ -37,7 +37,6 @@ public class TaskManager {
 
     public void addTasks() {
         int amount = Helper.getInt("Amount of tasks: ");
-
         for (int i = 0; i < amount; i++) {
             String taskName = Helper.getString("Task name " + (i + 1) + ": ");
             Task newTask = new Task(nextId, taskName);
@@ -64,7 +63,6 @@ public class TaskManager {
             if (taskExists(id)) {
                 Task taskToDelete = getTask(id);
                 System.out.println("Deleting task: " + taskToDelete.title);
-
                 tasks.removeIf(task -> task.id == taskToDelete.id);
             } else {
                 System.out.println("Task ID: " + id + " does not exist");

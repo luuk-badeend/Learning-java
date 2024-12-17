@@ -15,17 +15,4 @@ public class Task {
     public int getId() {
         return id;
     }
-
-    
-
-    // public static ArrayList<Task> editTask(ArrayList<Task> tasks) {
-    //     int i = Helper.getInt("ID to edit: ");
-    //     for (Task task : tasks) {
-    //         task.
-    //     }
-    //     // check if task exist
-    //     // edit task
-    //     // add to tasks 
-    //     return tasks;
-    // }
 }
