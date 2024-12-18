@@ -1,6 +1,7 @@
 
 public class Main {
     public static void main(String args[]) {
+        User usr = new User();
         boolean exit = false;
         while (exit == true) {
             TaskManager taskManager = new TaskManager();
